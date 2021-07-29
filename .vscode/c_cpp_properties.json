@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "bireme",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:GCC_ARM}/arm-none-eabi/include",
+                "${env:NRF_SDK}/**"
+            ],
+            "compilerPath": "${env:GCC_ARM}/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
